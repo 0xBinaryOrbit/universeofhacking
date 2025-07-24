@@ -130,14 +130,14 @@ const BlogDetails = () => {
                 <Calendar className="h-4 w-4" />
                 <span>{formatDate(blog.createdAt)}</span>
               </div>
-              <div className="flex items-center space-x-2">
+              {/* <div className="flex items-center space-x-2">
                 <Clock className="h-4 w-4" />
                 <span>{blog.readTime}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <BookOpen className="h-4 w-4" />
                 <span>{blog.views} views</span>
-              </div>
+              </div> */}
             </div>
 
             <button
